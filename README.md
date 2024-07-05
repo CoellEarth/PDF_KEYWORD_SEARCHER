@@ -64,3 +64,9 @@ analyze_results(results, output_file_path, patterns)
 查找项 'BEAGLES' 在文件 'paper2.pdf' 找到：'"I love them! I mean... the beagles", Lenden said sadly-' 
 ...
 ```
+### Contributing
+Contributions are welcome! Please feel free to submit a pull request or open an issue on GitHub.
+
+### Contact
+For any questions or suggestions, please contact Coell Shen at ZJE Institute at yuchen2.23@intl.zju.edu.cn.
+
