@@ -1,4 +1,4 @@
-# PDF KEYWORD SEARCHER Usage Guideline
+# PDF KEYWORD SEARCHER _Usage Guideline_
 _This simple yet useful python package is developed by **Coell Shen** at [ZJU-UoE INSTITUTE](https://zje.zju.edu.cn/)_
 ## Overview
 PDF KEYWORD SEARCHER is a Python script designed to search for specific words within PDF documents located in a specified directory. The script extracts text from PDFs, searches for predefined patterns(keywords), and outputs the results to a text file. Additionally, it provides a summary of which patterns were found or not found in the documents and the number of patterns.
