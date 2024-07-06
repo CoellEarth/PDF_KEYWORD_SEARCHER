@@ -31,7 +31,7 @@ def search_in_pdfs(directory, patterns):
                     for line_info in found:
                         results[pattern].append((filename, line_info[0], line_info[1]))
             except Exception as e:
-                print(f"处理文件 {filename} 时出错：{e}")
+                print(f"Error occurs when processing {filename} ：{e}")
     return results
 
 def analyze_results(results, output_file_path, patterns):
@@ -40,11 +40,11 @@ def analyze_results(results, output_file_path, patterns):
     all_lines = ""
 
     with open(output_file_path, 'w', encoding='utf-8') as file:
-        file.write("匹配成功的结果：\n")
+        file.write("Successully matched：\n")
         file.write("-------------------------------------\n")
         for pattern, matches in results.items():
             for filename, line_number, line_content in matches:
-                file.write(f"查找项 '{pattern}' 在文件 '{filename}' 找到：'{line_content}' \n")
+                file.write(f"query '{pattern}' in file '{filename}' found：'{line_content}' \n")
 
     with open(output_file_path, 'r', encoding='utf-8') as fileforsearch:
         for eachline in fileforsearch:
@@ -56,12 +56,12 @@ def analyze_results(results, output_file_path, patterns):
                 unique_queries_2.add(str.upper(query))
 
     print("----------------------------------------------")
-    print("在给定的文章中至少找到一个匹配的查询：")
-    print("数量:" + str(len(unique_queries_1)))
+    print("Queries found in given pdf files：")
+    print("Number:" + str(len(unique_queries_1)))
     print(unique_queries_1)
     print("----------------------------------------------")
-    print("在这些文章中找不到任何查询：")
-    print("数量:" + str(len(unique_queries_2)))
+    print("Queries NOT found in given pdf files：")
+    print("Number:" + str(len(unique_queries_2)))
     print(unique_queries_2)
     print("-----------------------------------------------")
-    print("所有查询的数量: " + str(len(patterns)))
+    print("All queries: " + str(len(patterns)))
