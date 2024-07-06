@@ -17,7 +17,8 @@ The initial version of PyMuPDF was authored by Jorj X. McKie.
 - PyMuPDF (install using `pip install pymupdf`)
 - re (regular expressions module, included in Python standard library)
 - os (included in Python standard library)
-## How to Use
+## How-to-use
+#### _you can just do copy and paste_
 ### Installation in Mac (command line in terminal)
 ```ruby
 pip3 install git+https://github.com/CoellEarth/PDF_KEYWORD_SEARCHER.git
