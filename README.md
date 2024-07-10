@@ -73,5 +73,5 @@ analyze_results(results, output_file_path, patterns)
 Contributions are welcome! Please feel free to submit a pull request or open an issue on GitHub.
 
 ### Contact
-For any questions or suggestions, please contact Coell Shen at ZJE Institute at yuchen2.23@intl.zju.edu.cn.
+For any questions or suggestions, please contact Coell Shen at ZJE Institute at coellearthx@gmail.com
 
