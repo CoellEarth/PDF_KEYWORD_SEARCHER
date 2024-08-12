@@ -10,7 +10,6 @@ PDF KEYWORD SEARCHER is a Python script designed to search for specific words wi
 - Provides a summary of patterns found and not found in the documents.
 ## About Pymupdf
 Artifex Software, Inc. is responsible for the maintenance and development of both PyMuPDF and MuPDF. 
-
 The initial version of PyMuPDF was authored by Jorj X. McKie.
 ## Requirements
 - Python 3.x
@@ -45,7 +44,7 @@ results = search_in_pdfs(directory, patterns)
 analyze_results(results, output_file_path, patterns)
 ```
 ### Analyzed Rusults
-#### After running the example script
+#### After running the example script(Chinese Version)
 #### In the console: 
 ##### _(NOTE: queries in UPPER CASE)_
 ```
